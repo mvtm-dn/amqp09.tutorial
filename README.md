@@ -61,10 +61,10 @@ Remote procedure call pattern with MQ broker
 ## Notes
 I slightly modified original RabbitMQ tutorial code.
 
-[tt01]:https://github.com/mvtm-dn/tree/master/01.Hello%20World%21
-[tt02]:https://github.com/mvtm-dn/tree/master/02.Work%20queues
-[tt03]:https://github.com/mvtm-dn/tree/master/03.Pub-Sub
-[tt04]:https://github.com/mvtm-dn/tree/master/04.Routing
-[tt05]:https://github.com/mvtm-dn/tree/master/05.Topics
-[tt06]:https://github.com/mvtm-dn/tree/master/06.RPC
+[tt01]:https://github.com/mvtm-dn/amqp09.tutorial/tree/master/01.Hello%20World!
+[tt02]:https://github.com/mvtm-dn/amqp09.tutorial/tree/master/02.Work%20queues
+[tt03]:https://github.com/mvtm-dn/amqp09.tutorial/tree/master/03.Pub-Sub
+[tt04]:https://github.com/mvtm-dn/amqp09.tutorial/tree/master/04.Routing
+[tt05]:https://github.com/mvtm-dn/amqp09.tutorial/tree/master/05.Topics
+[tt06]:https://github.com/mvtm-dn/amqp09.tutorial/tree/master/06.RPC
 
