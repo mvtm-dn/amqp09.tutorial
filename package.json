@@ -1,0 +1,13 @@
+{
+  "name": "ampq09.tutorial",
+  "version": "0.0.1-ignored",
+  "engines": {
+    "node": ">= 8.0.0"
+  },
+  "scripts": {},
+  "author": "mvtm.dn@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "amqplib": "^0.5.2"
+  }
+}
