@@ -8,7 +8,7 @@ A set of little modified samples from RabbitMQ tutorial checked with Apache QPID
 
 ### Qpid-J
 First you need to install and run [Apache Qpid-J broker](https://qpid.apache.org/components/broker-j/index.html) either from site or from [git repository](https://github.com/apache/qpid-broker-j).
-Then you need do some configuration tasks. Unfortunately [amqp 0-9-1](https://raw.githubusercontent.com/squaremo/amqp.node/) does not support any 
+Then you need do some configuration tasks. Unfortunately [amqp 0-9-1](https://github.com/squaremo/amqp.node/) does not support any 
 of SASL auth mechainsms but PLAIN. By default PLAIN mechaism is not configured in Qpid-J. So you need to find "authenticationproviders" section
 and add 
 ```

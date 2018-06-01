@@ -9,7 +9,7 @@ let args=process.argv.slice(2),
 
 amqp.connect('amqp://localhost')
     .then(_conn=>{
-        process.once("SIGING",()=>{conn.close();});
+        process.once("SIGINT",()=>{conn.close();});
         conn=_conn;
         return conn.createChannel();
     })

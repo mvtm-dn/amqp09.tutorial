@@ -6,7 +6,7 @@ let q=process.argv.length>2?process.argv[2]:'hello',conn,channel;
 
 amqp.connect('amqp://localhost')
     .then(_conn=>{
-        process.once("SIGING",()=>{conn.close();});
+        process.once("SIGINT",()=>{conn.close();});
         conn=_conn;return conn.createChannel();
     })
     .then(ch=>{channel=ch;return ch.assertQueue(q,{durable:false});})

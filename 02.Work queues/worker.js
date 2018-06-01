@@ -7,10 +7,11 @@ let conn,channel;
 
 amqp.connect('amqp://localhost')
     .then(_conn=>{
-        process.once("SIGING",()=>{conn.close();});
+        process.once("SIGINT",()=>{conn.close();console.log("Interrupted!");});
         conn=_conn;
         return conn.createChannel();
     })
+    .then(ch=>{channel=ch;return ch.assertQueue(q,{durable:true});})
     .then(()=>{
         console.log('[*] Connected and waiting....');
         channel.prefetch(1);
